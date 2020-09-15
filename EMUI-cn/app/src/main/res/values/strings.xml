@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ShareKitDemo</string>
+    <string name="sharekit_send">开始分享</string>
+    <string name="sharekit_share_text">分享文本</string>
+    <string name="sharekit_share_files">分享文件</string>
+    <string name="sharekit_text_content">文本内容:</string>
+    <string name="sharekit_text_sample">peer device will receive a file with this content inside</string>
+    <string name="sharekit_status_ok">OK</string>
+    <string name="sharekit_device_detail">%s 发现时间%s</string>
+    <string name="sharekit_time">&#160;时间&#160;</string>
+    <string name="sharekit_file_list">文件列表:</string>
+    <string name="sharekit_file_example">Download/fileA</string>
+    <string name="sharekit_content_empty">文本内容为空</string>
+    <string name="sharekit_file_list_empty">文件列表为空</string>
+    <string name="sharekit_file_not_exist">文件: %s 不存在, 跳过</string>
+    <string name="sharekit_no_files_left">没有可分享的文件</string>
+    <string name="sharekit_success">成功</string>
+    <string name="sharekit_fail">失败</string>
+    <string name="sharekit_try_send">尝试对 %s发起分享 结果:</string>
+    <string name="sharekit_device_alread_lost">指定设备已消失,未成功发送,请稍后再尝试</string>
+</resources>

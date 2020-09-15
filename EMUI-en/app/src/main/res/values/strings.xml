@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ShareKitDemo</string>
+    <string name="sharekit_send">Start sharing</string>
+    <string name="sharekit_share_text">Share text</string>
+    <string name="sharekit_share_files">Share file</string>
+    <string name="sharekit_text_content">Text content:</string>
+    <string name="sharekit_text_sample">Peer device will receive a file with this content inside</string>
+    <string name="sharekit_status_ok">OK</string>
+    <string name="sharekit_device_detail">%s discovered at: %s</string>
+    <string name="sharekit_time"> Time </string>
+    <string name="sharekit_file_list">Files list:</string>
+    <string name="sharekit_file_example">Download/file A</string>
+    <string name="sharekit_content_empty">Empty text content</string>
+    <string name="sharekit_file_list_empty">Empty files list</string>
+    <string name="sharekit_file_not_exist">File %s not found and skipped</string>
+    <string name="sharekit_no_files_left">No files to share</string>
+    <string name="sharekit_success">Successful</string>
+    <string name="sharekit_fail">Failed</string>
+    <string name="sharekit_try_send">Attempted to share with %s. Result:</string>
+    <string name="sharekit_device_alread_lost">Sharing failed because the specified device is disconnected. Please try again later. </string>
+</resources>
