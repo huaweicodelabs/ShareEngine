@@ -1,0 +1,52 @@
+Demo使用指导
+
+1. Demo介绍
+Demo包含：
+（1）源码文件：sharekitdrx.c driver_ble_rx.c sharekitdtx.c driver_ble_tx.c；
+（2）头文件：sharekit_api.h sharekit_def.h driver_adapt.h（包含在include文件夹中）；
+（3）可执行文件：sharekitdrx sharekitdtx
+（4）share engine库文件：libsharekit.so
+（5）Makefile文件：编译脚本
+
+2. Demo能力介绍
+示例代码重点展示share engine的各个接口的使用方法，为了简化代码省略了其他无关细节，具体请参考实例代码中的Demo
+
+3. Demo使用说明
+（1）编译Demo可执行程序，命令如下：
+ 执行make, Makefile文件仅仅供参考，用户可以自行修改
+
+4. Demo运行结果说明
+运行Demo可执行文件，屏幕打印信息如下所示（本文中仅展示部分打印信息，仅供参考）：
+root@test-ThinkPad-X1-Carbon-6th:/home/zhx/democode/test/zhx# ./sharekitdrx
+2019-12-30 22:56:04.256382 | INFO  | sharekit_api.c:41 | Sharekit version : sharekit-device-linux-1.0.0.100T1.
+BleDriverInit hci_devinfo is name hci0. 
+Driver BT log: StartGattServer start!
+Driver BT log: StartGattServer end!
+2019-12-30 22:56:04.256928 | INFO  | wpa_p2p_impl.c:1339 | Init wpa p2p.
+2019-12-30 22:56:04.256944 | INFO  | wpa_p2p_impl.c:1297 | enter WpaInitCore
+
+root@test-ThinkPad-X1-Carbon-6th:/home/zhx/democode/test/zhx# ./sharekitdtx
+2019-12-30 22:57:03.482637 | INFO  | sharekit_api.c:41 | Sharekit version : sharekit-device-linux-1.0.0.100T1.
+BleDriverInit hci_devinfo is name hci0. 
+2019-12-30 22:57:03.482857 | INFO  | wpa_p2p_impl.c:1339 | Init wpa p2p.
+2019-12-30 22:57:03.482871 | INFO  | wpa_p2p_impl.c:1297 | enter WpaInitCore
+
+License
+-------
+
+Copyright 2019 Huawei.
+
+Licensed to the Apache Software Foundation (ASF) under one or more contributor
+license agreements.  See the NOTICE file distributed with this work for
+additional information regarding copyright ownership.  The ASF licenses this
+file to you under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License.  You may obtain a copy of
+the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+License for the specific language governing permissions and limitations under
+the License.
