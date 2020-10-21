@@ -1,0 +1,51 @@
+1. Demo Instructions
+Include：
+（1）Source file: sharekit_demo_rx.c driver_ble_demo_rx.c sharekit_demo_tx.c driver_ble_demo_tx.c；
+（2）Header file: sharekit_api.h sharekit_def.h driver_adapt.h（in the include folder）；
+（3）executable file: sharekitdrx sharekitdtx
+（4）share engine lib file：libsharekit.so
+（5）Makefile: Compile script
+
+2. Demo capability introduction
+The demo code focuses on the use of the interfaces of the share kit. 
+For details, please refer to the Demo code
+
+3. Instructions for use
+ Run make (Makefile files are for reference only, users can modify it by themselves)
+
+4. Demo result description
+Run the Demo executable file, the screen prints the information as shown below
+(This article only shows part of the printing information for reference only):
+root@test-ThinkPad-X1-Carbon-6th:/home/zhx/democode/test/zhx# ./sharekitdrx
+2019-12-30 22:56:04.256382 | INFO  | sharekit_api.c:41 | Sharekit version : sharekit-device-linux-1.0.0.100T1.
+BleDriverInit hci_devinfo is name hci0. 
+Driver BT log: StartGattServer start!
+Driver BT log: StartGattServer end!
+2019-12-30 22:56:04.256928 | INFO  | wpa_p2p_impl.c:1339 | Init wpa p2p.
+2019-12-30 22:56:04.256944 | INFO  | wpa_p2p_impl.c:1297 | enter WpaInitCore
+
+root@test-ThinkPad-X1-Carbon-6th:/home/zhx/democode/test/zhx# ./sharekitdtx
+2019-12-30 22:57:03.482637 | INFO  | sharekit_api.c:41 | Sharekit version : sharekit-device-linux-1.0.0.100T1.
+BleDriverInit hci_devinfo is name hci0. 
+2019-12-30 22:57:03.482857 | INFO  | wpa_p2p_impl.c:1339 | Init wpa p2p.
+2019-12-30 22:57:03.482871 | INFO  | wpa_p2p_impl.c:1297 | enter WpaInitCore
+
+License
+-------
+
+Copyright 2019 Huawei.
+
+Licensed to the Apache Software Foundation (ASF) under one or more contributor
+license agreements.  See the NOTICE file distributed with this work for
+additional information regarding copyright ownership.  The ASF licenses this
+file to you under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License.  You may obtain a copy of
+the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+License for the specific language governing permissions and limitations under
+the License.
